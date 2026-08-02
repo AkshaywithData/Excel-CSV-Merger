@@ -22,7 +22,7 @@ This project automates the process of reading multiple CSV and Excel files, merg
 - OS
 
 ## Folder Structure
-
+ ```
 Excel-CSV-Merger/
 │   │
 │   └── Data/
@@ -33,7 +33,7 @@ Excel-CSV-Merger/
 ├── excel_csv_merge.py
 ├── requirements.txt
 └── README.md
-
+```
 
 ## Output
 
