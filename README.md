@@ -21,6 +21,22 @@ This project automates the process of reading multiple CSV and Excel files, merg
 - Glob
 - OS
 
+## How to Run
+
+1. Place CSV or Excel files inside `Data/Source/`.
+
+2. Install the required dependencies:
+
+- pip install -r requirements.txt
+
+3. Run the Python script:
+- python excel_csv_merge.py
+
+4. The merged file will be created in:
+    Output/Merge_data.xlsx
+5. Successfully processed files will be moved to:
+    Data/Archive/
+
 ## Folder Structure
  ```
 Excel-CSV-Merger/
@@ -29,9 +45,13 @@ Excel-CSV-Merger/
 │        ├── Source/
 │        └── Archive/
 │
+├── Screenshots/
+│           └── merging program.png
+│
 ├── Output/
 ├── excel_csv_merge.py
-├── requirements.txt
+├── LICENSE
+│── requirements.txt
 └── README.md
 ```
 
@@ -49,7 +69,6 @@ After execution, the project:
 ## Future Improvements
 
 - Tkinter desktop interface
-- Progress bar
 - File selection dialog
 - Merge summary report
 

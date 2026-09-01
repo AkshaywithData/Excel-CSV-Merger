@@ -31,6 +31,7 @@ print("Merge completed successfully.")
 
 merge_df.drop_duplicates(inplace=True)  
 #save output
+os.makedirs("Output", exist_ok=True)
 
 merge_df.to_excel("Output/Merge_data.xlsx", index = False)
 
